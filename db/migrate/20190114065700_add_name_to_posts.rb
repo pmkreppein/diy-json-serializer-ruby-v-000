@@ -1,4 +1,5 @@
 class AddNameToPosts < ActiveRecord::Migration
-  def change
+  def 
+    add_column :posts, :name, :string
   end
 end
